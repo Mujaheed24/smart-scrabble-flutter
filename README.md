@@ -1,17 +1,16 @@
-# scrabble
+# 🧩 Smart Scrabble
 
-A new Flutter project.
+A fully functional, offline-first Scrabble companion and game engine built with Flutter and Dart. 
 
-## Getting Started
+## ✨ Features
+* **Advanced Game Engine:** Mathematically accurate scoring, including multi-word intersection validation and Bingo (+50) bonuses.
+* **Inline Draft System:** Seamlessly draft and preview words on the board before committing your turn.
+* **Offline Dictionary:** Lightning-fast word validation using a custom Trie data structure.
+* **Local Persistence:** Auto-saves game state, players, and timer settings using `Hive` so you never lose a match.
+* **Custom Matches:** Supports 2 to 4 players with an optional, toggleable turn timer.
+* **History Stack:** Full Undo support to revert board states and scores.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Built With
+* [Flutter](https://flutter.dev/)
+* [Provider](https://pub.dev/packages/provider) (State Management)
+* [Hive](https://pub.dev/packages/hive) (Local Storage)
